@@ -1,8 +1,11 @@
 package com.hly.java.thread.callable;
 
+import java.util.HashMap;
 import java.util.concurrent.Callable;
+import java.util.concurrent.ConcurrentHashMap;
 import java.util.concurrent.ExecutionException;
 import java.util.concurrent.FutureTask;
+import java.util.concurrent.locks.AbstractQueuedSynchronizer;
 
 /**
  * @author :hly
@@ -31,6 +34,7 @@ public class TestCallable {
 }
 
 class CallableThreadDemo implements Callable<Integer> {
+    HashMap
     @Override
     public Integer call() throws Exception {
         int sum = 0;

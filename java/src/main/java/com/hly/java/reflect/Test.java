@@ -127,8 +127,6 @@ public class Test {
         method.invoke(o);
     }
 
-
-
     /**
      * 反射的实现方式
      *

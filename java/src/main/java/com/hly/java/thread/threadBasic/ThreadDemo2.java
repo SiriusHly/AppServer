@@ -10,7 +10,7 @@ package com.hly.java.thread.threadBasic;
  */
 public class ThreadDemo2 implements Runnable {
     @Override
-    public void run() {
+    public void run()  {
         for(int i=0;i<10;i++){
             System.out.println("thread1:"+i+" ");
         }
