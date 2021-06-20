@@ -34,7 +34,6 @@ public class TestCallable {
 }
 
 class CallableThreadDemo implements Callable<Integer> {
-    HashMap
     @Override
     public Integer call() throws Exception {
         int sum = 0;
